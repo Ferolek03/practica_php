@@ -1,0 +1,21 @@
+{
+    "name": "ferolek03/practica",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferolek03",
+            "email": "melkonyaynsam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
